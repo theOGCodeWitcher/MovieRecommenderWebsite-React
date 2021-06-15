@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.headingStyle{
+  background-color: black;
+  color: red;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  height: 3rem;
+}
+
+.mainContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.container{
+  height: 28rem;
+  width: 21rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  /* padding: 10px; */
+  margin: 50px;
+  cursor: pointer;
+  box-shadow: 0px 3px 10px black;
+}
+
+.container:hover{
+  transform: scale(1.05 , 1.05 );
+}
+
+.image img{
+  height: 350px;
+  width: 21rem;
+}
+.heading{
+  background-color: whitesmoke;
+  padding: 4px  25px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 9px;
+  text-align: center;
+  color: gray;
+}
+.content{
+  padding: 2px 5px;
+}
+
+.content h2{
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 2px
+
+}
+.btnClass{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  
+}
+.btnClass button{
+  padding: 0px;
+  height: 1.7rem;
+  width: 7.5rem;
+  font-size: 17px;
+  cursor: pointer;
+  border: 2px solid red;
+  background-color: whitesmoke;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+
+}
+
+.btnClass button:hover{
+  background-color: red;
+  color: black;
+  border: 2px solid black;
+}
